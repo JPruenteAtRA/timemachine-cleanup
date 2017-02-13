@@ -13,7 +13,7 @@ These scripts will
 * Logging to /var/log/timemachine-cleanup{,-err}.log and, if the schedules are kept in near sync, rotate the logs just before beginning another cleanup cycle
 
 # Scheduling the cleanups
-Modify the times and/or days as desired in the plist. The script will run at initial load. If this is not desired then remove the RunAtLoad key from the plist.
+Modify the times and/or days as desired in the plist and also the rotation schedule in the newsyslog.d conf file. The plist will run the cleanup script at initial load. If this is not desired then remove the RunAtLoad key from the plist.
 
 As root or via sudo, load the plist with 
 > launchctl load /Library/LaunchDaemons/com.riskanalytics.corp.jpruente.timemachine-cleanup.plist
