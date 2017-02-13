@@ -3,7 +3,7 @@
 # Step through each backup sparsebundle and run an hdiutil compact on them
 # JPruente last modified 2017-02-10
 
-tmdir="/Volumes/Path-to-your-shared-TM-folder/Shared Items/Backups/"
+tmdir="/Volumes/Path-To-Your-TM-Share/Shared Items/Backups/"
 
 echo "$(ls -1 "${tmdir}" | grep -v "^\..*")" | while read i
 do
