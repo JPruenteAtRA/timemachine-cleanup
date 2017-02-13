@@ -1,5 +1,5 @@
 # timemachine-cleanup
-Scripts to automatically trim/truncate Time Machine backups and recover storage space from the sparsebundles
+Scripts to automatically trim/truncate Apple mac OS or OS X Time Machine backups and recover storage space from the sparsebundles
 
 # Designed usage
 These scripts will
