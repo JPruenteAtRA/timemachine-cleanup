@@ -5,7 +5,7 @@ Scripts to automatically trim/truncate Apple macOS or OS X Time Machine backups 
 These scripts will
 * Search a specified shared directory
 * Find Time Machine backup sparse bundles
-* Mount each sparsebundle that is accessible, in use or encrypted backups are ignored
+* Mount each sparsebundle that is accessible (in use or encrypted backups are ignored)
 * Check for backups older than the specified tail length from the latest backup (not the current date!)
 * Delete backups older than tail length
 * Unmount the sparsebundle
